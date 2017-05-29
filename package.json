@@ -1,0 +1,9 @@
+{
+  "name": "beer-tokens",
+  "version": "1.0.0",
+  "description": "Decentralised and incentivised pub discovery network",
+  "main": "index.js",
+  "repository": "https://github.com/ShandyClub/beer-tokens.git",
+  "author": "Shandy Club <cheers@shandy.club>",
+  "license": "Apache-2.0"
+}
