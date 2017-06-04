@@ -9,14 +9,14 @@
 yarn
 ```
 
-### Build
+Connect to Status:
 ```
-yarn build
+status-dev-cli add '{"whisper-identity": "beer-tokens", "name": "Beer Tokens" ,"bot-url": "http://<MACHINE_IP>:8080/bot/bot.js", "dapp-url": "http://<MACHINE_IP>:8080/"}' --ip <DEVICE_IP>
 ```
 
-### Test
+### Develop
 ```
-yarn test
+yarn start
 ```
 
 ## Credits

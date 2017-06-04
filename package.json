@@ -5,5 +5,18 @@
   "main": "index.js",
   "repository": "https://github.com/ShandyClub/beer-tokens.git",
   "author": "Shandy Club <cheers@shandy.club>",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "whisper-identity": "beer-tokens",
+  "bot-url": "http://192.168.0.4:8080/bot/bot.js",
+  "dapp-url": "http://192.168.0.4:8080/",
+  "scripts": {
+    "start": "live-server dapp",
+    "testrpc": "testrpc -p 8546"
+  },
+  "devDependencies": {
+    "ethereumjs-testrpc": "^3.0.5",
+    "status-dev-cli": "^3.2.2"
+  },
+  "dependencies": {
+  }
 }
